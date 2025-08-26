@@ -1,0 +1,1688 @@
+/*------------ fonts -----------*/
+
+@font-face {
+    font-family: Vazir;
+    src: url('/assets/fonts/ttf/Vazirmatn-Black.ttf');
+}
+
+@font-face {
+    font-family: sammim;
+    src: url('/assets/fonts/sammim/Samim-Bold-FD.woff');
+    src: url('/assets/fonts/sammim/Samim-Bold-FD.woff2');
+}
+
+
+
+
+/*-------------- reset selectore ---------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+
+/*-------------- index.html styls -----------*/
+
+
+
+/*---- body styles ----*/
+
+body {
+    font-family: sammim;
+    height: 100%;
+    text-align: center;
+    background-color: #FAF9EE;
+}
+
+/*---- header styles ----*/
+
+header {
+    height: 20%;
+    background-color: #A2AF9B;
+    color: #EEEEEE;
+    padding: 20px 0;
+}
+
+.index-page header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/*---- footer styles ----*/
+
+footer {
+    height: 20%;
+    background-color: #A2AF9B;
+    color: #EEEEEE;
+    padding: 20px 0;
+}
+
+.my-Projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.my-Projects a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0048ff;
+    margin-right: 10px;
+    background-color: #FAF9EE;
+    padding: 5px 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(90, 88, 88) inset;
+}
+
+main {
+    padding: 30px 20px 30px;
+}
+
+.text-container {
+    display: inline-block;
+    width: 20%;
+    border-radius: 5px;
+    background-color: #A2AF9B;
+    padding: 10px;
+    color: #EEEEEE;
+}
+
+.text-box {
+    text-align: left;
+}
+
+.text-box h3 {
+    text-shadow: 3px 3px 10px #ff0000;
+}
+
+.text-box p {
+    line-height: 2;
+    text-align: justify;
+}
+
+/*---- gallry box styles ----*/
+
+.gallry-box {
+    display: inline-block;
+    width: 57%;
+    background-color: #A2AF9B;
+    padding: 5px;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.gallry-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image-box {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.Circle {
+    border-radius: 100% !important;
+    width: 200px;
+    height: 200px;
+    margin: 30px 0;
+    box-shadow: 3px 3px 20px rgb(0, 0, 0);
+}
+
+
+
+
+/* -------------- sign up page 1 ------------*/
+
+.regestersection {
+    text-align: center;
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.regesterbox {
+    display: inline-block;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px 60px 30px 30px;
+    margin-top: 10px;
+    background-color: #1A2A80;
+    box-shadow: 10px 10px 20px rgba(0, 0, 255, 0.341);
+    color: white;
+}
+
+.regesterhesder {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.regesterhesder h1 {
+    font-size: 40px;
+    color: transparent;
+    background: linear-gradient(to right, #FAFF00, #00E0FF);
+    background-clip: text;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.redtext {
+    color: red;
+}
+
+.regesterform {
+    text-align: justify;
+}
+
+.halfinput {
+    width: 47%;
+    display: inline-block;
+    margin: 5px 0px;
+}
+
+.halfinput input {
+    box-shadow: 0 0 10px white inset;
+}
+
+.radiobox input {
+    width: 15px !important;
+    vertical-align: sub;
+    margin-left: 10px;
+}
+
+.radiobox label {
+    vertical-align: super;
+    margin-left: 10px;
+}
+
+.radiobox p {
+    font-size: 15px;
+    width: 40%;
+    height: 30px;
+    background: linear-gradient(to right, #3B38A0, #7A85C1);
+    border-radius: 100px;
+    padding: 4px 10px 0 0;
+}
+
+.regestersection input {
+    border: none;
+    width: 90%;
+    height: 30px;
+    background: linear-gradient(to right, #3B38A0, #7A85C1);
+    border-radius: 100px;
+    margin: 5px 0px;
+    font-family: inherit;
+    padding-right: 10px;
+}
+
+.regestersection input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.lineinput {
+    margin: 5px 0px;
+}
+
+.lineinput input {
+    box-shadow: 0 0 10px white inset;
+}
+
+.checkbox input {
+    width: 20px;
+    vertical-align: sub;
+}
+
+.checkbox label {
+    vertical-align: super;
+}
+
+.submit {
+    text-align: center;
+    margin: 5px 0 5px 15px;
+}
+
+.submit button {
+    width: 40%;
+    background-color: #3B38A0;
+    border: none;
+    height: 30px;
+    border-radius: 100px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+    box-shadow: 3px 3px 10px #7A85C1;
+}
+
+button:hover {
+    box-shadow: 0 0 5px rgb(255, 255, 255) inset;
+}
+
+button:focus {
+    box-shadow: 0 0 5px rgb(255, 254, 254) inset;
+    background-color: #ffffff;
+    color: black;
+}
+
+
+
+
+
+/* ---------------- sign up page 2 -------------------- */
+
+.regester2 {
+    text-align: center;
+    height: 100vh;
+    font-family: sammim;
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.regester2box {
+    display: inline-block;
+    width: 600px;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #7ADAA5;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px black;
+}
+
+.headerregester2 h1,
+h3 {
+    color: white;
+    margin-top: 5px;
+}
+
+.formregester2 {
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.formregester2 input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-right: 15px;
+    background-color: #ECECBB;
+    font-family: inherit;
+}
+
+.formregester2 input:focus {
+    background-color: white;
+}
+
+.formregester2 input::placeholder {
+    color: black;
+}
+
+.regesterinput {
+    display: inline-block;
+    width: 49%;
+    margin-left: 3px;
+}
+
+.regesterrr {
+    margin-bottom: 20px;
+}
+
+.regesterrr input {
+    width: 20px;
+    vertical-align: sub;
+}
+
+.regesterrr label {
+    vertical-align: super;
+}
+
+.regesterrrr {
+    text-align: center;
+}
+
+.regesterrrr button {
+    width: 60%;
+    background-color: #239BA7;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 10px 0;
+    box-shadow: 3px 3px 7px black;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+
+.regesterrrr button:hover {
+
+    background-color: #0479ff;
+}
+
+.login {
+    margin-top: 30px;
+}
+
+.login a {
+    text-decoration: none;
+    color: rgb(49, 101, 255);
+}
+
+
+
+
+
+/*----------- sign up new version English and Farsi ----------*/
+
+.sing-up-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6a11cb, #7b00ff, #2575fc);
+    font-family: cursive;
+}
+
+.sign-up-container {
+    max-width: 80%;
+    overflow: hidden;
+    border-radius: 1.2rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px, 2px, 10px rgba(0, 0, 0, 0.552);
+}
+
+.sign-up-right {
+    padding: 2rem;
+}
+
+.sign-up-form h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.sign-up-form input {
+    width: 100%;
+    height: 3.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, .4);
+    margin-bottom: .5rem;
+    padding: 5px 45px 5px 20px;
+    font-family: sammim;
+}
+
+.sign-up-form input:focus {
+    border: 3px solid #6a11cb;
+}
+
+.sing-up-accept {
+    margin: 1rem 0 .5rem 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+}
+
+.sing-up-accept input {
+    width: 15px;
+    accent-color: #6a11cb;
+}
+
+.sing-up-accept a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.sign-up-btn {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: .7rem;
+    border: none;
+    outline: none;
+    background: linear-gradient(135deg, #6a11cb, #7b00ff, #2575fc);
+    color: #fff;
+    font-family: inherit;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.sign-up-btn:hover {
+    opacity: .9;
+}
+
+.social-sign-up {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sign-up-left {
+    width: 100%;
+    padding: 270px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .7rem;
+    color: #fff;
+    background: linear-gradient(-120deg, #6a11cb, #7b00ff, #2575fc);
+}
+
+.sign-up-left h2 {
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+}
+
+.sign-up-left p {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.sign-up-left a {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: .7rem 1.3rem;
+}
+
+.dir-right {
+    direction: rtl;
+}
+
+.just-content-right {
+    justify-content: right;
+}
+
+.sign-up-right-fa-pading {
+    padding: 5px 20px 5px 45px !important;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.sign-up-link-to-en {
+    background-color: rgb(209, 203, 203);
+    left: 50px;
+    padding: 10px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 5px rgb(72, 72, 72);
+}
+
+.sign-up-link-to-en a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/*-----------------  login  page   ------------*/
+
+.login-en-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(/assets/images/10.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login-fa-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/assets/images/17.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    direction: rtl;
+    height: 100vh;
+}
+
+.login-box {
+    width: 420px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgb(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+    border-radius: 15px;
+    padding: 30px 40px;
+    color: #fff;
+}
+
+.login-box h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.login-box .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    outline: none;
+    border-radius: 45px;
+    font-size: 1rem;
+    color: #fff;
+    font-family: inherit;
+}
+
+.input-box-paddin {
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box-paddin-fa {
+    padding: 20px 20px 20px 45px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.inpot-box-i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+}
+
+.inpot-box-i-fa {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+}
+
+.login-box .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: .9rem;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: rgb(132, 255, 0);
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.login-box .btn {
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0 0 10 rgb(0, 0, 0, .1);
+    cursor: pointer;
+    color: #333;
+    font-family: inherit;
+}
+
+.login-box .register-link {
+    font-size: .8rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link p a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 2px
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+.go-english {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, .1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.go-english a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/*---------------- flex box site styles  -------------*/
+
+.app-page {
+    direction: rtl;
+    background-color: #FCF8DD;
+    font-family: sammim;
+}
+
+.app-header {
+    height: 15%;
+    background-color: #00809D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-footer {
+    height: 15%;
+    background-color: #00809D;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-nave {
+    display: flex;
+    background-color: #FCF8DD;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.app-ul {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    list-style: none;
+}
+
+.app-li {
+    padding: 5px 10px;
+    background-color: #d7d6d0;
+    margin: 0 5px;
+    border-radius: 15px;
+    transition: all ease 1.5s;
+}
+
+.app-li:hover {
+    box-shadow: 1px 2px 10px #b0b0af;
+    background-color: black;
+    color: white;
+    transform: rotate(360deg);
+}
+
+.Mahsol:hover {
+    background-color: green;
+    color: white;
+}
+
+.Sabad:hover {
+    background-color: red;
+    color: white;
+}
+
+.app-logo {
+    text-align: center;
+    margin-left: 20px;
+}
+
+.http-logo {
+    width: 50px;
+    height: 50px;
+}
+
+/*-- flex cotainer and items --*/
+
+.flex-cotainer {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+}
+
+.flex-iteems {
+    background-color: #ece5c0;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px black;
+    transition: all ease 2s;
+}
+
+.flex-iteems:hover {
+    border: 1px solid;
+    transform: scale(1.1);
+}
+
+.app-flex-img {
+    max-width: 300px;
+    border-radius: 15px;
+
+}
+
+.price-link {
+    margin-top: 10px;
+}
+
+.name-app {
+    text-shadow: 1px 1px 3px black;
+    margin-bottom: 10px;
+}
+
+.price-app {
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.link-app {
+    padding: 5px 7px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: #b1a985;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+    font-family: inherit;
+    outline: none;
+    transition: all ease .5s;
+}
+
+.link-app:hover {
+    transform: translate(3px, 5px);
+}
+
+
+
+
+
+/* ------------ flex list page ----------- */
+
+.flex-list-page {
+    font-family: cursive;
+}
+
+.flex-list-page header {
+    height: 15%;
+    background-color: #BBDCE5;
+    text-align: center;
+    font-size: 30px;
+    color: #0048ff;
+}
+
+.flex-list-page footer {
+    height: 15%;
+    background-color: #BBDCE5;
+    text-align: center;
+    font-size: 30px;
+    color: #0048ff;
+}
+
+.flex-list-page main {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 600px;
+}
+
+.flex-list-box {
+    background-color: #ECEEDF;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+}
+
+.flex-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 95%;
+    background-color: #D9C4B0;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.flex-list-items {
+    width: 25%;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.list-one {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.flex-list-img {
+    width: 55px;
+    filter: drop-shadow(2px 2px 3px black);
+    margin-left: 70px;
+}
+
+.flex-list-link {
+    text-decoration: none;
+    color: #0048ff;
+    font-size: 20px;
+}
+
+.list-key {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.star {
+    color: rgb(255, 106, 0);
+    font-size: 25px;
+}
+
+.flex-list-items b {
+    color: red;
+}
+
+.flex-list-button {
+    width: 70%;
+    padding: 10px 20px;
+    background-color: #CFAB8D;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 4px 2px 5px rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.flex-list-button:hover {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0) inset;
+    font-weight: 600;
+}
+
+
+
+
+/*--------------- table page styles ---------------*/
+
+.table-page-main {
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .1)), url(/assets/images/12.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.table-box {
+    border-spacing: 6px;
+    text-align: center;
+    color: white;
+}
+
+.table-box td,
+th {
+    border-radius: 15px;
+}
+
+.table-box img {
+    transition: all ease 1s;
+}
+
+.table-box td:hover {
+    background-color: white;
+    color: black;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(.2rem);
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease 1s;
+}
+
+.modal img {
+    width: 40%;
+}
+
+.modal a {
+    text-decoration: none;
+    border: 4px solid red;
+}
+
+.modal:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.d-mobile {
+    display: none;
+}
+
+
+
+/*----------------- Music page styles --------------*/
+
+.music-head {
+    padding: 0 2rem;
+}
+
+.h-music {
+    margin-left: 5rem;
+    margin-bottom: 0px !important;
+}
+
+.select-music ul {
+    list-style-type: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.278);
+    gap: 1rem;
+}
+
+.select-music li {
+    padding: 1rem 1rem;
+}
+
+.select-music a {
+    text-decoration: none;
+    text-shadow: 2px 2px 3px black;
+    background-color: #9d53d1;
+    padding: .5rem .8rem;
+    border-radius: 15px;
+}
+
+.video-container a {
+    background-color: white;
+    padding: 1.5rem 3rem;
+    border-radius: 100rem;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5rem;
+    right: 43%;
+    bottom: 30%;
+}
+
+.h2-music {
+    margin-bottom: 7rem;
+    backdrop-filter: blur(.5rem);
+    padding: .5rem 1rem;
+    border-radius: 100rem;
+    box-shadow: 2px 0px 20px rgba(255, 255, 255, 0.381);
+}
+
+.img-and-music-box {
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .1)), url(/assets/images/game-of-thrones-poster.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+
+.music-items {
+    backdrop-filter: blur(.3rem);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 2px 0px 20px rgba(255, 255, 255, 0.381);
+    margin-left: 1.2rem;
+    transition: all ease 1s;
+}
+
+.music-container {
+    flex-wrap: wrap;
+    gap: 1.3rem;
+}
+
+.music-items:hover {
+    backdrop-filter: blur(.5rem);
+    box-shadow: 3px 1px 20px #9929EA;
+}
+
+.music-mobile-nav {
+    display: none;
+}
+
+.mobile-replace-img {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------- selecrors ------------------*/
+
+.font-sammim {
+    font-family: sammim;
+}
+
+.font-vazir {
+    font-family: vazir;
+}
+
+.green-color {
+    color: green;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-black {
+    color: rgb(0, 0, 0);
+}
+
+.color-purple {
+    color: #9929EA;
+}
+
+.b-color-black {
+    background-color: #000000;
+}
+
+.b-color-purple {
+    background-color: #9929EA;
+}
+
+.b-color-blue {
+    background-color: blue;
+}
+
+.box-shadow-black {
+    box-shadow: 2px 2px 5px black;
+}
+
+.d-inbock {
+    display: inline-block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-dir-col {
+    flex-direction: column;
+}
+
+.just-center {
+    justify-content: center;
+}
+
+.just-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.font-size-3 {
+    font-size: 3rem;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-sticky {
+    position: sticky;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.top-30 {
+    top: 2rem;
+}
+
+.top-2 {
+    top: 2rem;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.bottom-20r {
+    bottom: 20rem;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.left-2 {
+    left: 2rem;
+}
+
+.left-20px {
+    left: 20px;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.right-2 {
+    right: 2rem;
+}
+
+.right-20px {
+    right: 20px;
+}
+
+.top-2r {
+    top: 2rem;
+}
+
+.right-2r {
+    right: 2rem;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-55px {
+    width: 55px;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-auto {
+    height: auto;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-10-20 {
+    padding: 10px 20px;
+}
+
+.m-2 {
+    margin: 2rem;
+}
+
+.m-top-2 {
+    margin-top: 2rem;
+}
+
+.m-bottom-1r {
+    margin-bottom: 1rem;
+}
+
+.br-radus-100 {
+    border-radius: 100%;
+}
+
+.br-radus-999px {
+    border-radius: 999px;
+}
+
+.b-size {
+    background-size: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.b-position {
+    background-position: center;
+}
+
+.text-dco-none {
+    text-decoration: none;
+}
+
+.scale:hover {
+    transform: scale(2);
+    filter: drop-shadow(0 0 7px black);
+}
+
+.background-blur-black {
+    background-color: rgba(0, 0, 0, 0.159);
+    backdrop-filter: blur(.2rem);
+}
+
+
+
+
+
+
+/* ------------------- responsive -----------------*/
+
+
+
+@media (max-width: 412px) {
+
+    main {
+        padding: 5px;
+    }
+
+    .text-container {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .gallry-box {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .image-box {
+        margin: auto;
+        width: 90%;
+    }
+
+    .Circle {
+        width: auto;
+        height: auto;
+    }
+
+    .text-box h3 {
+        font-size: small;
+    }
+
+    .text-box p {
+        line-height: 2;
+        font-size: small;
+    }
+
+    .regesterbox {
+        width: 90%;
+        padding: 10px 40px 10px 10px;
+    }
+
+
+
+
+    /*--------- sign up page styles --------*/
+
+    input::placeholder {
+        font-size: 10px;
+    }
+
+    .regester2box {
+        width: 95%;
+    }
+
+    .regesterinput {
+        width: 100%;
+    }
+
+    .checkbox label {
+        font-size: 15px;
+    }
+
+
+
+    /* sign up new version English and Farsi */
+
+
+    .sign-up-container {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .sign-up-form h1 {
+        margin-bottom: 1.5rem;
+    }
+
+    .sign-up-form input {
+        font-size: .7rem;
+        height: 40px;
+    }
+
+    .sing-up-accept {
+        margin: .5rem 0 .3rem 0;
+    }
+
+    .sing-up-accept a {
+        font-size: .8rem;
+    }
+
+    .social-sign-up img {
+        width: 40px;
+    }
+
+    .social-sign-up-github {
+        width: 30px !important;
+    }
+
+    .sign-up-left {
+        padding: 20px 0;
+    }
+
+    .sign-up-left h2 {
+        font-size: 1rem;
+    }
+
+    .sign-up-left p {
+        font-size: 1rem;
+    }
+
+    .sign-up-left a {
+        font-size: 1rem;
+        border: 2px solid white;
+        border-radius: 15px;
+        padding: .5rem 1rem;
+    }
+
+    .sign-up-link-to-en {
+        left: 1rem;
+    }
+
+
+
+
+    /*--------------- flex page styles ----------*/
+
+    .app-header {
+        justify-content: center;
+    }
+
+    .app-nave {
+        display: none;
+    }
+
+    .app-logo {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .flex-iteems {
+        margin: 5px;
+    }
+
+
+
+
+    /*------- login page styles -----*/
+
+    .login-box {
+        width: 80%;
+    }
+
+
+
+
+
+    /*-------- flex list page ------ */
+
+    .flex-list-page main {
+        height: 100%;
+        padding: 20px 5px;
+    }
+
+    .flex-list-box {
+        width: 95;
+        padding: 20px 20px;
+    }
+
+    .flex-list-container {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: small;
+    }
+
+    .flex-list-items {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .flex-list-items .flex-list-img {
+        margin: 0;
+    }
+
+    .list-one {
+        gap: 10px;
+    }
+
+    .flex-list-button {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .for-responsive {
+        flex-direction: row;
+        gap: 3px;
+    }
+
+
+
+
+    /*-------- table page -------*/
+
+    .app-header-table {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+        height: 10%;
+    }
+
+    .table-box table,
+    thead,
+    tbody,
+    tfoot,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+
+    .table-box tr {
+        margin-top: 1.5rem;
+    }
+
+    .table-box th,
+    td {
+        height: auto;
+        margin-top: 0.1rem;
+    }
+
+    .modal img {
+        width: 80%;
+    }
+
+    .d-mobile {
+        display: inline-block;
+    }
+
+    .d-mobile summary {
+        list-style: none;
+    }
+
+    .mibile-menu-ul {
+        list-style: none;
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 10px 20px;
+        color: #000000;
+    }
+
+
+
+
+    /*-------- music page styles ------*/
+
+    .music-head {
+        padding: 0 .3rem;
+        height: 12%;
+    }
+
+    .select-music {
+        display: none;
+    }
+
+    .music-mobile-nav {
+        display: inline-block;
+        background-position: center;
+        background-size: cover;
+        margin-right: .6rem;
+    }
+
+    .music-nav-summary {
+        list-style-type: none;
+    }
+
+    .music-mobile-nav-box {
+        position: absolute;
+        right: .5rem;
+        z-index: 1;
+        background-color: white;
+        padding: .8rem;
+        border-radius: .8rem;
+    }
+
+    .music-mobil-ul {
+        list-style-type: none;
+    }
+
+    .music-mobil-ul a {
+        text-decoration: none;
+        padding-bottom: .3rem;
+    }
+
+    .h-music h1 {
+        font-size: 1.5rem;
+        margin-left: .5rem;
+    }
+
+    .music-logo {
+        left: 1rem;
+    }
+
+    .video-container video {
+        display: none;
+    }
+
+    .mobile-replace-img {
+        display: block;
+    }
+
+    .video-container a {
+        background-color: white;
+        padding: 1rem 1rem;
+        border-radius: 100rem;
+        text-decoration: none;
+        color: #000000;
+        font-size: 1rem;
+        right: 37%;
+        bottom: 20%;
+    }
+
+    .h2-music {
+        margin-bottom: .8rem;
+        margin-top: .5rem;
+        font-size: 1.3rem;
+    }
+
+    .music-items {
+        margin-left: 0px;
+    }
+
+    .music-footer {
+        font-size: 1.5rem;
+    }
+}
