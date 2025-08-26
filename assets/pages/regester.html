@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/images/icon1.png" type="image/x-icon">
+    <title>صفحه ثبتنام</title>
+</head>
+
+<body>
+
+    <!-- سکشن کلی صفحه ثبتنام -->
+
+    <section class="regestersection">
+
+        <!-- باکس دور صفحه ثبتنام -->
+
+        <div class="regesterbox">
+
+            <!-- نوشته فرم ثبتنام -->
+
+            <div class="regesterhesder">
+                <h1>ثبت نام</h1>
+                <h3>بیاید یک <span class="redtext">حساب</span> بسازیم</h3>
+            </div>
+
+            <!-- فرم های صفحه ثبتنام -->
+
+            <form class="regesterform" action="/index.html">
+
+                <!-- فیلد نام و نام خانوادگی -->
+
+                <div class="halfinput">
+                    <label for="fname">نام :</label><br>
+                    <input placeholder="لطفا نام  خود را وارد کنید" type="text" required>
+                </div>
+
+                <div class="halfinput">
+                    <label for="lname">نام خانوادگی :</label><br>
+                    <input placeholder="لطفا نام خانوادگی خود را وارد کنید" type="text">
+                </div>
+
+                <!-- فیلد ریدیو انتخاب جنسیت -->
+
+                <div class="radiobox">
+                    <p>جنسیت :</p>
+                    <label for="radio">مرد</label>
+                    <input type="radio" id="radio" name="radio">
+
+                    <label for="radio">زن</label>
+                    <input type="radio" id="radio" name="radio">
+                </div>
+
+                <!-- فیلد نوشتن ایمیل -->
+
+                <div class="lineinput">
+                    <label for="Email">ایمیل :</label><br>
+                    <input placeholder="لطفا ایمیل خود را وارد کنید" type=" email">
+                </div>
+
+                <!-- فیلد نوشتن تکرار ایمیل -->
+
+                <div class="lineinput">
+                    <label for="Email">تکرار ایمیل :</label><br>
+                    <input type="email">
+                </div>
+
+                <!-- فیلد نوشتن رمز -->
+
+                <div class="lineinput">
+                    <label for="Password">رمز :</label><br>
+                    <input type="password">
+                </div>
+
+                <!-- فیلد تکرار رمز -->
+
+                <div class="lineinput">
+                    <label for="Password">تکرار رمز :</label><br>
+                    <input type="password">
+                </div>
+
+                <!-- فیلد تایید قوانین و مقررات -->
+
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <label for="checkbox">قوانین و مقررات را می پذیرم.</label>
+                </div>
+
+                <!-- دکمه و ثبتنام در سایت -->
+
+                <div class="submit">
+
+                    <button type="submit">ثبت نام</button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
