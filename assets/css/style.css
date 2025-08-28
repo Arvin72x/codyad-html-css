@@ -34,9 +34,6 @@
 
 body {
     font-family: sammim;
-    height: 100%;
-    text-align: center;
-    background-color: #FAF9EE;
 }
 
 /*---- header styles ----*/
@@ -46,6 +43,7 @@ header {
     background-color: #A2AF9B;
     color: #EEEEEE;
     padding: 20px 0;
+    text-align: center;
 }
 
 .index-page header h1 {
@@ -60,6 +58,7 @@ footer {
     background-color: #A2AF9B;
     color: #EEEEEE;
     padding: 20px 0;
+    text-align: center;
 }
 
 .my-Projects {
@@ -83,6 +82,8 @@ footer {
 
 main {
     padding: 30px 20px 30px;
+    background-color: #FAF9EE;
+    text-align: center;
 }
 
 .text-container {
@@ -165,7 +166,7 @@ main {
 }
 
 .regesterhesder {
-    text-align: justify;
+    text-align: right;
     margin-bottom: 30px;
 }
 
@@ -183,7 +184,7 @@ main {
 }
 
 .regesterform {
-    text-align: justify;
+    text-align: right;
 }
 
 .halfinput {
@@ -1365,8 +1366,8 @@ th {
     }
 
     .image-box {
-        margin: auto;
         width: 90%;
+        margin: 0;
     }
 
     .Circle {
@@ -1383,16 +1384,17 @@ th {
         font-size: small;
     }
 
+    
+    
+    
+    
+    /*--------- sign up page styles --------*/
+    
     .regesterbox {
         width: 90%;
         padding: 10px 40px 10px 10px;
     }
-
-
-
-
-    /*--------- sign up page styles --------*/
-
+    
     input::placeholder {
         font-size: 10px;
     }
