@@ -435,7 +435,7 @@ h3 {
     border: 3px solid #6a11cb;
 }
 
-.sing-up-accept {
+.sign-up-accept {
     margin: 1rem 0 .5rem 0;
     display: flex;
     justify-content: left;
@@ -443,12 +443,12 @@ h3 {
     gap: 5px;
 }
 
-.sing-up-accept input {
+.sign-up-accept input {
     width: 15px;
     accent-color: #6a11cb;
 }
 
-.sing-up-accept a {
+.sign-up-accept a {
     font-size: 1.1rem;
     text-decoration: none;
     color: black;
@@ -1430,12 +1430,12 @@ th {
         height: 40px;
     }
 
-    .sing-up-accept {
+    .sign-up-accept {
         margin: .5rem 0 .3rem 0;
     }
 
     .sing-up-accept a {
-        font-size: .8rem;
+        font-size: .5rem;
     }
 
     .social-sign-up img {
