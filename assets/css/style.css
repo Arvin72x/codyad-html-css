@@ -732,11 +732,10 @@ h3 {
 }
 
 .app-nave {
-    display: flex;
     background-color: #FCF8DD;
     border-radius: 15px;
     padding: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .app-ul {
@@ -784,13 +783,11 @@ h3 {
 /*-- flex cotainer and items --*/
 
 .flex-cotainer {
-    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    flex: 1;
 }
 
 .flex-iteems {
