@@ -428,7 +428,6 @@ h3 {
     border: 2px solid rgba(0, 0, 0, .4);
     margin-bottom: .5rem;
     padding: 5px 45px 5px 20px;
-    font-family: sammim;
 }
 
 .sign-up-form input:focus {
@@ -1027,7 +1026,6 @@ th {
 
 .h-music {
     margin-left: 5rem;
-    margin-bottom: 0px !important;
 }
 
 .select-music ul {
@@ -1072,7 +1070,12 @@ th {
     background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .1)), url(/assets/images/game-of-thrones-poster.jpg);
     background-position: center;
     background-size: cover;
-    height: 1000px;
+    height: 100%;
+}
+
+.music-container {
+    flex-wrap: wrap;
+    gap: 1.3rem;
 }
 
 .music-items {
@@ -1082,11 +1085,6 @@ th {
     box-shadow: 2px 0px 20px rgba(255, 255, 255, 0.381);
     margin-left: 1.2rem;
     transition: all ease 1s;
-}
-
-.music-container {
-    flex-wrap: wrap;
-    gap: 1.3rem;
 }
 
 .music-items:hover {
@@ -1116,6 +1114,10 @@ th {
 
 .font-sammim {
     font-family: sammim;
+}
+
+.font-cursive {
+    font-family: cursive;
 }
 
 .font-vazir {
@@ -1619,14 +1621,22 @@ th {
         height: 12%;
     }
 
+    .music-logo {
+        left: 1rem;
+    }
+
+    .h-music h1 {
+        font-size: 1.5rem;
+        margin-left: .5rem;
+    }
+
+
     .select-music {
         display: none;
     }
 
     .music-mobile-nav {
         display: inline-block;
-        background-position: center;
-        background-size: cover;
         margin-right: .6rem;
     }
 
@@ -1652,15 +1662,6 @@ th {
         padding-bottom: .3rem;
     }
 
-    .h-music h1 {
-        font-size: 1.5rem;
-        margin-left: .5rem;
-    }
-
-    .music-logo {
-        left: 1rem;
-    }
-
     .video-container video {
         display: none;
     }
@@ -1670,14 +1671,14 @@ th {
     }
 
     .video-container a {
-        background-color: white;
         padding: 1rem 1rem;
-        border-radius: 100rem;
-        text-decoration: none;
-        color: #000000;
         font-size: 1rem;
         right: 37%;
         bottom: 20%;
+    }
+
+    .img-and-music-box-mobile {
+        height: auto;
     }
 
     .h2-music {
